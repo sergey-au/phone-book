@@ -1,0 +1,36 @@
+HELP.md
+target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+
+### VS Code ###
+.vscode/
+
+### Mac ###
+.DS_Store
+
+### Emacs ###
+*~
+\#*\#
+
+.envrc
+logs/
+*.log
+
+**/h2db.mv.db
+
+

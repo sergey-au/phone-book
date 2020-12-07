@@ -1,0 +1,32 @@
+.scroll-container {
+  max-height: 290px;
+  display: inline-block;
+  overflow-y: auto;
+}
+
+.ui.table thead tr:first-child > th {
+  position: sticky !important;
+  top: 0;
+  z-index: 2;
+  background: white;
+}
+.ui.table thead tr:first-child>th:first-child {
+  background: white;
+}
+.ui.table thead tr:first-child>th:first-child:hover {
+  background: white;
+}
+.ui.table thead tr:first-child>th:last-child:hover {
+  background: white;
+}
+.books-control, .scroll-container {
+  margin: 12px;
+}
+.books-segment {
+  display:inline-block;
+}
+
+.button-span {
+  margin: 6px;
+}
+
