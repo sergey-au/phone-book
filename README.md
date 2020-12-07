@@ -32,7 +32,7 @@ Clone the project.
 2. cd to api module and run 
 `mvn -Dspring-boot.run.fork=false -Dspring-boot.run.jvmArguments spring-boot:run` to run the application. This will start 
 the service. In the browser navigate to http://localhost:8080
-3. In another terminal window change to pcs/ui folder and run `npm start`. This 
+3. In another terminal window, change to ui/ folder and run `npm start`. This 
 will start the node and launch the browser to the app http://localhost:3000. Node will automatically
 reload JavaScript and CSS changes.
 
